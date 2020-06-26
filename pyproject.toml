@@ -15,4 +15,5 @@ link-preview = "^1.0"
 pil-compat = "^1.0"
 python = "^3.8"
 validators = "^0.14.2"
+linkpreview = "^0.1.11"
 [tool.poetry.dev-dependencies]
