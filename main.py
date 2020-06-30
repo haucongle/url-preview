@@ -69,7 +69,7 @@ if icon_link is not None:
     if icon_href.find("http") != -1:
         icon = icon_href
     elif icon_href.find("//") != -1:
-        icon = 'http' + icon_href
+        icon = 'http:' + icon_href
     else:
         icon = parsed_uri.hostname + icon_href
 
@@ -87,7 +87,7 @@ if image is not None:
     if image_link.find("http") != -1:
         image = image_link
     elif image_link.find("//") != -1:
-        image = 'http' + image_link
+        image = 'http:' + image_link
     else:
         image = parsed_uri.hostname + image_link
 
